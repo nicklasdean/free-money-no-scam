@@ -14,8 +14,6 @@ public class IndexController {
 
     @PostMapping("/test")
     public String userEmail(WebRequest wr){
-        String parameter = wr.getParameter("test-input");
-        System.out.println(parameter);
         return "index";
     }
 
