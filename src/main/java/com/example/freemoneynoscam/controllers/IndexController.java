@@ -11,10 +11,4 @@ public class IndexController {
     public String index(){
         return "index";
     }
-
-    @PostMapping("/test")
-    public String userEmail(WebRequest wr){
-        return "index";
-    }
-
 }
